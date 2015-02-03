@@ -22,7 +22,7 @@ header{
   width: 100%;
   text-align: center;
   padding-top: 40px;
-  };
+};
 
 h1 {
   font-family: 'Zorus_Serif', 'viva-std', serif;
@@ -72,10 +72,10 @@ h3 {
     border-top: 1px solid #222222;
     border-bottom: 1px solid #222222;
   }
-    &:before {
+  &:before {
     margin: 5px 0 0 -60px;
-    }
-    &:after{
+  }
+  &:after{
     margin: 5px 0 0 1px;
 
   }
@@ -91,19 +91,19 @@ p {
 
 //BACKGROUND
 video.bgvid {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    opacity: 0.8;
-    @include sepia(sepia(0.8));
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  opacity: 0.8;
+  @include sepia(sepia(0.8));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 //SECTIONS
 section {
@@ -120,12 +120,12 @@ section {
     h2 {
       margin-top: 0;
     }
-    }
-    .subMood {
-      @extend .mood;
-      margin-top: -12%;
-      }
-    }
+  }
+  .subMood {
+    @extend .mood;
+    margin-top: -12%;
+  }
+}
 
 .chosenOne {
   @include chosen(rise 2s forwards);
@@ -184,13 +184,17 @@ section {
     @include shadow(9px 10px 9px 0px rgba(0,0,0,0.75));
     position:relative;
   }
-  }
+}
 
 
 .animate {
   @include animateDown(animation 4s);
   opacity:0;
   transform: translateY(1000px);
+}
+
+.fadein {
+  @include fadein(fade 2s .5s backwards);
 }
 
 
@@ -242,6 +246,15 @@ section {
   }
 }
 
+@-webkit-keyframes fade {
+  0%{
+    opacity:0;
+  }
+  100%
+  {
+    opacity:1;
+  }
+}
 
 //JQUERY
 
