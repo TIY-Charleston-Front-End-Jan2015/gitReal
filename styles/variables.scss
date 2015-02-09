@@ -31,3 +31,10 @@ $subHead-font-color: #514f4f;
   -moz-box-shadow: $shadow;
   box-shadow: $shadow;
 }
+
+
+@mixin fadein ($fadein) {
+  animation: $fadein;
+  -webkit-animation: $fadein;
+  -moz-animation: $fadein;
+}
