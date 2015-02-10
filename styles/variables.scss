@@ -1,6 +1,12 @@
 $h1-font-color: #1c1c1c;
 $subHead-font-color: #514f4f;
 
+@font-face {
+  font-family: 'zorusFont';
+  src: url(../Zorus_Serif.otf);
+}
+
+$head-font: 'zorusFont', 'viva-std', serif;
 
 @mixin transition ($transition) {
   -webkit-transition: $transition;

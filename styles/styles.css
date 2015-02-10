@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'zorusFont';
+  src: url(../Zorus_Serif.otf); }
+
 body, h1, h2, h3, h4, h5, p, a {
   margin: 0;
   padding: 0; }
@@ -19,7 +23,7 @@ header {
   padding-top: 40px; }
 
 h1 {
-  font-family: 'Zorus_Serif', 'viva-std', serif;
+  font-family: 'zorusFont', 'viva-std', serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 6em;
@@ -29,7 +33,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-family: 'Zorus_Serif', serif;
+  font-family: 'zorusFont', 'viva-std', serif;
   text-transform: uppercase;
   text-align: left;
   margin-top: -55px;
@@ -39,7 +43,7 @@ h2 {
 
 h4 {
   font-size: 28px;
-  font-family: 'Zorus_Serif', serif;
+  font-family: 'zorusFont', 'viva-std', serif;
   text-transform: uppercase;
   margin-bottom: 10px; }
 
