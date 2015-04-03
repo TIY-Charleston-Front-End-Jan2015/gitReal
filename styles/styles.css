@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'zorusFont';
   src: url(../Zorus_Serif.otf); }
-
 body, h1, h2, h3, h4, h5, p, a {
   margin: 0;
   padding: 0; }
@@ -23,17 +22,17 @@ header {
   padding-top: 40px; }
 
 h1 {
-  font-family: 'zorusFont', 'viva-std', serif;
+  font-family: "zorusFont", "viva-std", serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 6em;
+  font-size: 5em;
   letter-spacing: 10px;
   text-align: center;
   color: #1c1c1c; }
 
 h2 {
-  font-size: 24px;
-  font-family: 'zorusFont', 'viva-std', serif;
+  font-size: 22px;
+  font-family: "zorusFont", "viva-std", serif;
   text-transform: uppercase;
   text-align: left;
   margin-top: -55px;
@@ -43,7 +42,7 @@ h2 {
 
 h4 {
   font-size: 28px;
-  font-family: 'zorusFont', 'viva-std', serif;
+  font-family: "zorusFont", "viva-std", serif;
   text-transform: uppercase;
   margin-bottom: 10px; }
 
@@ -52,7 +51,7 @@ h3 {
   color: #514f4f;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   margin: 20px 0 0 0;
   position: relative;
@@ -96,13 +95,13 @@ section {
   section .mood, section .genre, section .subMood {
     display: block;
     text-align: center;
-    margin-top: 15%; }
+    margin-top: 10%; }
   section .genre {
-    margin-top: -14%; }
+    margin-top: -25%; }
     section .genre h2 {
       margin-top: 0; }
   section .subMood {
-    margin-top: -12%; }
+    margin-top: -20%; }
 
 .chosenOne {
   animation: rise 2s forwards;
@@ -158,9 +157,9 @@ section {
   transform: translateY(1000px); }
 
 .fadein {
-  animation: fade 2s .5s backwards;
-  -webkit-animation: fade 2s .5s backwards;
-  -moz-animation: fade 2s .5s backwards; }
+  animation: fade 2s 0.5s backwards;
+  -webkit-animation: fade 2s 0.5s backwards;
+  -moz-animation: fade 2s 0.5s backwards; }
 
 .moodbtn {
   text-align: center;
@@ -185,25 +184,19 @@ section {
   0% {
     opacity: 100;
     -webkit-transform: rotate(20deg); }
-
   100% {
     opacity: 0;
     transform: translateY(1000px);
     display: none; } }
-
 @-webkit-keyframes rise {
-
   100% {
     -webkit-transform: translateY(-250px);
     opacity: 0; } }
-
 @-webkit-keyframes fade {
   0% {
     opacity: 0; }
-
   100% {
     opacity: 1; } }
-
 div {
   display: none; }
 
@@ -217,5 +210,8 @@ div {
 @media screen and (max-device-width: 800px) {
   html {
     background: url(polina.jpg) #000 no-repeat center center fixed; }
+
   #bgvid {
     display: none; } }
+
+/*# sourceMappingURL=styles.css.map */

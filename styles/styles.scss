@@ -28,7 +28,7 @@ h1 {
   font-family: $head-font;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 6em;
+  font-size: 5em;
   letter-spacing: 10px;
   text-align: center;
   color: $h1-font-color;
@@ -36,7 +36,7 @@ h1 {
 
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: $head-font;
   text-transform: uppercase;
   text-align: left;
@@ -59,7 +59,7 @@ h3 {
   color: $subHead-font-color;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   margin: 20px 0 0 0;
   position: relative;
@@ -112,18 +112,18 @@ section {
   .mood {
     display: block;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .genre {
     @extend .mood;
-    margin-top: -14%;
+    margin-top: -25%;
     h2 {
       margin-top: 0;
     }
     }
     .subMood {
       @extend .mood;
-      margin-top: -12%;
+      margin-top: -20%;
       }
     }
 
